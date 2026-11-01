@@ -11,15 +11,12 @@ window.LINKS = {
     logo: "assets/logos/sebasig.webp", logoClaro: false,
     redes: [
       { red: "web", nombre: "Portafolio", detalle: "sebasig.meuveryone.com", url: "https://sebasig.meuveryone.com" },
-      { red: "instagram", nombre: "Instagram", detalle: "@sebasig", url: "https://instagram.com/sebasig" },
-      { red: "tiktok", nombre: "TikTok", detalle: "@sebasig", url: "https://tiktok.com/@sebasig" },
-      { red: "x", nombre: "X", detalle: "@sebasig", url: "https://x.com/sebasig" },
-      { red: "linkedin", nombre: "LinkedIn", detalle: "Sebastian Uruchi", url: "https://linkedin.com/in/sebasig" },
-      { red: "youtube", nombre: "YouTube", detalle: "@sebasig", url: "https://youtube.com/@sebasig" },
-      { red: "threads", nombre: "Threads", detalle: "@sebasig", url: "https://threads.net/@sebasig" },
-      { red: "facebook", nombre: "Facebook", detalle: "/sebasig", url: "https://facebook.com/sebasig" },
-      { red: "behance", nombre: "Behance", detalle: "Proyectos de diseño", url: "https://behance.net/sebasig" },
-      { red: "pinterest", nombre: "Pinterest", detalle: "Inspiración", url: "https://pinterest.com/sebasig" }
+      { red: "instagram", nombre: "Instagram", detalle: "@soysebastianig", url: "https://www.instagram.com/soysebastianig/" },
+      { red: "tiktok", nombre: "TikTok", detalle: "@soysebastianig", url: "https://www.tiktok.com/@soysebastianig" },
+      { red: "youtube", nombre: "YouTube", detalle: "@soysebastianig", url: "https://www.youtube.com/@soysebastianig" },
+      { red: "x", nombre: "X", detalle: "@soysebastianig", url: "https://x.com/soysebastianig" },
+      { red: "threads", nombre: "Threads", detalle: "@soysebastianig", url: "https://www.threads.com/@soysebastianig" },
+      { red: "linkedin", nombre: "LinkedIn", detalle: "Sebastian IG Uruchi Cruz", url: "https://www.linkedin.com/in/sebastian-ig-uruchi-cruz-68b504330/" }
     ]
   }
 };
