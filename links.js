@@ -4,16 +4,7 @@ window.LINKS = {
   marca: {
     titulo: "Meuveryone", subtitulo: "Publicidad digital · SEO · Desarrollo web",
     logo: "assets/logos/meuveryone.webp", logoClaro: true,
-    redes: [
-      { red: "web", nombre: "Sitio web", detalle: "meuveryone.com", url: "https://meuveryone.com" },
-      { red: "instagram", nombre: "Instagram", detalle: "@meuveryone", url: "https://instagram.com/meuveryone" },
-      { red: "tiktok", nombre: "TikTok", detalle: "@meuveryone", url: "https://tiktok.com/@meuveryone" },
-      { red: "x", nombre: "X", detalle: "@meuveryone", url: "https://x.com/meuveryone" },
-      { red: "facebook", nombre: "Facebook", detalle: "/meuveryone", url: "https://facebook.com/meuveryone" },
-      { red: "youtube", nombre: "YouTube", detalle: "@meuveryone", url: "https://youtube.com/@meuveryone" },
-      { red: "threads", nombre: "Threads", detalle: "@meuveryone", url: "https://threads.net/@meuveryone" },
-      { red: "linkedin", nombre: "LinkedIn", detalle: "Meuveryone", url: "https://linkedin.com/company/meuveryone" }
-    ]
+    redes: [] // La pestaña de marca no muestra redes por ahora: su contenido está en brand.js
   },
   personal: {
     titulo: "Sebastian Uruchi", subtitulo: "Fundador de Meuveryone · Portafolio",
