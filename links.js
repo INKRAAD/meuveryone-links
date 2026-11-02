@@ -12,6 +12,7 @@ window.LINKS = {
     redes: [
       { red: "web", nombre: "Portafolio", detalle: "sebasig.meuveryone.com", url: "https://sebasig.meuveryone.com" },
       { red: "instagram", nombre: "Instagram", detalle: "@soysebastianig", url: "https://www.instagram.com/soysebastianig/" },
+      { red: "facebook", nombre: "Facebook", detalle: "Sebastian IG", url: "https://www.facebook.com/profile.php?id=61596188188326" },
       { red: "tiktok", nombre: "TikTok", detalle: "@soysebastianig", url: "https://www.tiktok.com/@soysebastianig" },
       { red: "youtube", nombre: "YouTube", detalle: "@soysebastianig", url: "https://www.youtube.com/@soysebastianig" },
       { red: "x", nombre: "X", detalle: "@soysebastianig", url: "https://x.com/soysebastianig" },

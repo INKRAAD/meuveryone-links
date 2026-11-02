@@ -12,13 +12,13 @@ function render(tab){const d=LINKS[tab];document.body.className=tab;
  if(tab==='marca'){lista.innerHTML=PROPUESTAS[V].render();PROPUESTAS[V].init&&PROPUESTAS[V].init()}else lista.innerHTML=d.redes.map((r,i)=>{const b=BRAND[r.red]||BRAND.web;return `<li style="--i:${i}"><a href="${r.url}" target="_blank" rel="noopener" style="--brand:${b[0]};--shadow:${b[1]}"><span class="ico"><i style="--svg:url('${icon(r.red)}')"></i></span><span class="txt"><b>${r.nombre}</b><small>${r.detalle||''}</small></span><span class="arrow">→</span></a></li>`}).join('');
  document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
  $('#swap span').textContent=tab==='marca'?'Conoce a Sebastian, el fundador  →':'←  Volver a Meuveryone';
- history.replaceState(null,'',location.pathname+location.search+(tab==='marca'?'':'#personal'));actual=tab;}
+ history.replaceState(null,'',location.pathname+location.search+(tab==='marca'?'':'#personal'));actual=tab;const Y=new Date().getFullYear();$('#foot').textContent=tab==='marca'?`Meuveryone · Agencia de crecimiento digital · Lima · © ${Y}`:`Sebastian IG · Fundador de Meuveryone · © ${Y}`;}
 function go(tab,e){if(tab===actual)return;
  if(e){const r=document.createElement('div');r.className='ripple';r.style.left=e.clientX+'px';r.style.top=e.clientY+'px';document.body.appendChild(r);setTimeout(()=>r.remove(),1000)}
  lista.classList.add('out');setTimeout(()=>render(tab),420);}
 document.querySelectorAll('.tabs button').forEach(b=>b.onclick=e=>go(b.dataset.tab,e));
 $('#swap').onclick=e=>go(actual==='marca'?'personal':'marca',e);
-render(location.hash==='#personal'?'personal':'marca');$('#y').textContent=new Date().getFullYear();
+render(location.hash==='#personal'?'personal':'marca');
 // brillo y tilt 3D
 const g=$('.glow');addEventListener('pointermove',e=>{g.style.left=e.clientX+'px';g.style.top=e.clientY+'px';
  if(matchMedia('(hover:hover)').matches){const r=card.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;card.style.transform=`rotateY(${x*6}deg) rotateX(${-y*6}deg)`}});
